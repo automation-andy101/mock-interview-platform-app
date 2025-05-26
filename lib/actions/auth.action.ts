@@ -4,7 +4,6 @@ import {cookies} from "next/headers";
 import { auth, db } from "@/firebase/admin";
 
 
-
 const ONE_WEEK = 60 * 60 * 24 * 7;
 
 export async function signUp(params: SignUpParams) {
