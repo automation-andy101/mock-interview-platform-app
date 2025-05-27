@@ -55,7 +55,7 @@ const Agent = ({ userName, userId, type }: AgentProps) => {
       vapi.off('speech-start', onSpeechStart);
       vapi.off('speech-end', onSpeechEnd);
       vapi.off('error', onError);
-    };;
+    };
   }, [])
 
   useEffect(() => {
